@@ -56,7 +56,7 @@ void mergeSort(int* arr , int s , int e){
 
   //recusion will sort the right part
   mergeSort(arr , mid + 1  ,e ); 
- 
+  
   //Merge
   merge(arr , s ,e); 
 }
